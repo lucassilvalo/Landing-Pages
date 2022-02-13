@@ -1,0 +1,92 @@
+*{
+    /*ARQUIVO RAIZ*/
+    margin: 0;
+    padding: 0;    
+}
+body{
+    background-color: rgb(202, 202, 202);
+    color: #686868;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo{    
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+}
+
+.container{   
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.price{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.paragrafo{
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.elemento{    
+    width: 225px;
+    height: 390px;    
+    border-radius: 10px;
+    box-shadow: 1px 1px 1em grey;
+    background-color: rgb(230, 229, 229);    
+    margin: 30px;
+}
+#main{
+    background-color: rgb(130, 61, 209);
+    color: #fff;    
+}
+ul{    
+    margin-top: 30px;   
+    text-align: left;
+    list-style: none;
+    font-size: 12px;   
+}
+li{
+    display: flex;
+    justify-content: left;   
+    margin-top: 4px;  
+}
+ul li:before {        
+    margin-left: 20px;
+    margin-right: 10px;    
+    content: '';
+    display: inline-block; 
+    width: 20px;
+    height: 20px; 
+        background-size: 20px;            
+    background-image: url("..//img/check-icon.svg");     
+    background-repeat: no-repeat;       
+  }
+ .main-li::before{
+    background-image: url("..//img/check-icon.png"); 
+    filter: invert(100%) brightness(90%) opacity(90%);
+ } 
+.btn-escolha{
+    width: 194px;
+    height: 50px; 
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 15.5px;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(125, 80, 175);  
+    font-weight: 600;
+}  
+#btn-main{
+    background-color: rgb(209, 182, 241);
+}
